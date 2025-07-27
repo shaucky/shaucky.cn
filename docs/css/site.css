@@ -1,0 +1,32 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+footer {
+    font-size: 10pt;
+    padding-top: 20px;
+}
+
+a.footer-link, a.footer-link.new, a.footer-link:active, a.footer-link.new:active, a.footer-link:hover, a.footer-link.new:hover, a.footer-link:link, a.footer-link.new:link, a.footer-link:visited, a.footer-link.new:visited, a.footer-link.external, a.footer-link.external:active, a.footer-link.external:hover, a.footer-link.external:link, a.footer-link.external:visited {
+    color: #6c757d !important;
+    text-decoration: none;
+}
